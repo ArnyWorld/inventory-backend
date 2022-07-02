@@ -6,6 +6,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class CategoryResponseRest extends ResponseRest{
-	private CategoryResponse categoryResopnse = new CategoryResponse();
+	private CategoryResponse categoryResponse = new CategoryResponse();
 	
 }
