@@ -1,5 +1,6 @@
 package com.company.inventory.controller;
 
+<<<<<<< HEAD
 import java.io.IOException;
 
 import org.springframework.http.ResponseEntity;
@@ -58,4 +59,11 @@ public class ProductRestController {
 		return response;
 	}
 	
+=======
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class ProductRestController {
+
+>>>>>>> 3b415050656c5ad28567c3673120bbaae71b6e41
 }

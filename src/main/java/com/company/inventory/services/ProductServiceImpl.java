@@ -1,5 +1,6 @@
 package com.company.inventory.services;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -60,4 +61,11 @@ public class ProductServiceImpl implements IProductService {
 		return new ResponseEntity<ProductResponseRest>(response, HttpStatus.OK);
 	}
 
+=======
+import org.springframework.stereotype.Service;
+
+@Service
+public class ProductServiceImpl implements IProductService {
+
+>>>>>>> 3b415050656c5ad28567c3673120bbaae71b6e41
 }

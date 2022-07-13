@@ -1,15 +1,23 @@
 package com.company.inventory.model;
 
 import java.io.Serializable;
+<<<<<<< HEAD
 
 import javax.persistence.Basic;
+=======
+import java.util.Locale.Category;
+
+>>>>>>> 3b415050656c5ad28567c3673120bbaae71b6e41
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+<<<<<<< HEAD
 import javax.persistence.Lob;
+=======
+>>>>>>> 3b415050656c5ad28567c3673120bbaae71b6e41
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
@@ -41,8 +49,12 @@ public class Product implements Serializable{
 	@JsonIgnoreProperties({"hibernateLazyInitializer","handler"})
 	private Category category;
 	
+<<<<<<< HEAD
 	@Lob
 	@Basic(fetch = FetchType.LAZY)
 	@Column(name="picture")
+=======
+	@Column(name="picture", length = 1000)
+>>>>>>> 3b415050656c5ad28567c3673120bbaae71b6e41
 	private byte[] picture; 
 }
